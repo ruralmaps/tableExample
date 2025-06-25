@@ -1,0 +1,100 @@
+@font-face {
+    font-family: 'Work Sans';
+    src: url('WorkSans-VariableFont_wght.ttf') format('truetype'); 
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  body {
+  margin: 0;
+  padding: 0;
+}
+
+.content {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+  .page-header {
+    text-align: center;
+  }
+  
+  .header-banner {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto 1rem;
+  }
+  
+  .main-title {
+    font-family: 'Beatrice', sans-serif;
+    font-size: 2rem;
+    font-weight: 900;
+    margin: 0;
+    position: absolute;
+    left: -9999px;
+  }
+
+  .subheading {
+    font-family: 'Beatrice', sans-serif;
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin-top: 0.5rem;
+    margin-bottom: 0;
+    color: #555;
+  }
+
+.table-container {
+    width: 100%;
+    overflow-x: auto;
+    margin-top: 1.5rem;
+    
+  }
+  
+  table {
+    width: 100%;
+    min-width: 600px; /* Prevents squishing too much on small screens */
+    border-collapse: separate;
+    border-spacing: 0;
+    margin: 1rem 0;
+    border-radius: 8px;
+    overflow: hidden; /* ensures child cell borders don't poke out */
+  }
+  
+  thead {
+    background-color: #f5f5f5;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 0.75rem;
+    text-align: center;
+    vertical-align: top;
+  }
+  
+  th {
+    font-family: 'beatrice';
+    font-weight: 700;
+    font-size: x-large;
+    background-color: #e0e0e0;
+  }
+
+  td {
+    font-family: 'Work Sans';
+  }
+  
+  /* Left-align the "Definition" column */
+td:nth-child(3) {
+    text-align: left;
+  }
+
+  tr:nth-child(even) {
+    background-color: #fafafa;
+  }
+  
+  tr:hover {
+    background-color: #f1f1f1;
+  }
+
